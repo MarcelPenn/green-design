@@ -184,6 +184,9 @@ section {
         right: 3%;
         transition: .2s;
     }
+    .hero-text {
+        margin-left: 60px;
+    }
 }
 
 @media (max-width: 1460px) {
@@ -191,6 +194,11 @@ section {
         padding: 0 12%;
         transition: .2s;
     }
+
+    .hero-text {
+        left: 20%;
+    }
+    
 }
 
 @media (max-width: 1340px) {
@@ -223,9 +231,7 @@ section {
         gap: 1rem;
         grid-template-columns: 1fr;
     }
-    .icons {
-        display: none;
-    }
+
     .scroll-down {
         display: none;
     }
